@@ -9,7 +9,7 @@ We are using 3-tier architecture i.e. separate layer for presentation, applicati
 
 It is an architectural style that structures an application as a collection of services. Highly maintainable and testable. Loosely coupled. Independently deployable.
 
-####_Here is the microservice diagram of our project : _
+#### _Here is the microservice diagram of our project : _
 
 ![Alt Text](Img/Microservices.png)
 
@@ -34,7 +34,7 @@ Audit benchmark service used here, is to set the threshold value for internal an
 Audit severity service is used to calculate the status of execution. This service calls other two services namely audit checklist and audit benchmark to get the list of questions and pre-defined threshold values for audit type which is connected through feign clients, a declarative web service (HTTP client) to call the REST services.
 
 
-### _Here are some screenshots of the project _
+### _Here are some screenshots of the project :_
 
 
 * Login Page :
