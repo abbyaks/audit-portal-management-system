@@ -13,23 +13,23 @@ It is an architectural style that structures an application as a collection of s
 
 ![Alt Text](Img/Microservices.png)
 
-### * Audit Web Portal Service :
+### Audit Web Portal Service ➡️
 
  A web portal is a web-based platform that provides users with a single access point to information. Each information regarding microservices gets dedicated area on the page.
  
-### * Audit Authorization Service :
+### Audit Authorization Service ➡️
 
 Authentication service is used for the information security. Here, we have used JWT for security. It is a compact and self-contained way for securely transmitting information between parties as a JSON object.
 
-### *Audit checklist service :
+### Audit checklist service ➡️
 
 Audit checklist service is used to get list of questions. Once the user successfully logged in, it goes to home page where the user have to enter project details and audit type.
 
-### * Audit benchmark service :
+### Audit benchmark service ➡️
 
 Audit benchmark service used here, is to set the threshold value for internal and sox audit type. The threshold value for internal is 3 and for sox is 1.
 
-### * Audit severity service :
+### Audit severity service ➡️
 
 Audit severity service is used to calculate the status of execution. This service calls other two services namely audit checklist and audit benchmark to get the list of questions and pre-defined threshold values for audit type which is connected through feign clients, a declarative web service (HTTP client) to call the REST services.
 
