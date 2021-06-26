@@ -9,7 +9,7 @@ We are using 3-tier architecture i.e. separate layer for presentation, applicati
 
 It is an architectural style that structures an application as a collection of services. Highly maintainable and testable. Loosely coupled. Independently deployable.
 
-#### _Here is the microservice diagram of our project : _
+#### _Here is the microservice diagram of our project :_
 
 ![Alt Text](Img/Microservices.png)
 
@@ -21,7 +21,7 @@ It is an architectural style that structures an application as a collection of s
 
 Authentication service is used for the information security. Here, we have used JWT for security. It is a compact and self-contained way for securely transmitting information between parties as a JSON object.
 
-### * Audit checklist service :
+###* Audit checklist service :
 
 Audit checklist service is used to get list of questions. Once the user successfully logged in, it goes to home page where the user have to enter project details and audit type.
 
